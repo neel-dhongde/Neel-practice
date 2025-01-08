@@ -1,12 +1,12 @@
-name: CI/CD Pipeline
+name: Hello creating CI/CD pipeline
 
 on:
   push:
     branches:
-      - main
+      - base
   pull_request:
     branches:
-      - main
+      - base
 
 jobs:
   build:
@@ -25,3 +25,4 @@ jobs:
 
       - name: Run tests
         run: npm test
+
