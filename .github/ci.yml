@@ -1,12 +1,12 @@
-name: CI Pipeline
+name: CI/CD Pipeline
 
 on:
   push:
     branches:
-      - main
+      - base
   pull_request:
     branches:
-      - main
+      - base
 
 jobs:
   build:
